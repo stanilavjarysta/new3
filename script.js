@@ -1,1 +1,1 @@
-console.log(commit)
+consol.log(  commit)
