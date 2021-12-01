@@ -64,7 +64,7 @@ img {
     color: white;
 }
 .card {
-width: 40%;
+width: 80%;
 
 }
 
@@ -95,7 +95,9 @@ width: 40%;
 .ai-cen {
  align-items: center;
 }
-
+.font-s {
+    font-size: 20px;
+}
 
 .mar {
     margin: 15px;
@@ -118,3 +120,6 @@ width: 40%;
 .max-w {
     width: 105px;
 }
+
+/*progres*/
+
