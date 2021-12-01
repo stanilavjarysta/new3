@@ -13,12 +13,12 @@
 // var triggerFirstTabEl = document.querySelector('#myTab li:first-child a')
 // bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
 //
-var firstTabEl = document.querySelector('#myTab a:last-child')
-var firstTab = new bootstrap.Tab(firstTabEl)
+// var firstTabEl = document.querySelector('#myTab a:last-child')
+// var firstTab = new bootstrap.Tab(firstTabEl)
+//
+// firstTab.show()
 
-firstTab.show()
-
-var someListItemEl = document.querySelector('#someListItem')
-var tab = new bootstrap.Tab(someListItemEl)
-
-tab.show()
+// var someListItemEl = document.querySelector('#someListItem')
+// var tab = new bootstrap.Tab(someListItemEl)
+//
+// tab.show()
