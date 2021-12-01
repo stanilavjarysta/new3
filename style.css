@@ -17,7 +17,7 @@ height: 250px;
     height: 300px;
     position: absolute;
     top: 230px;
-     }
+    }
 .boxf {
     width: 50%;
     height: 95%;
@@ -63,6 +63,12 @@ img {
 .tx-col {
     color: white;
 }
+.card {
+width: 40%;
+
+}
+
+
 
 /*PARAM*/
 .br {
@@ -104,8 +110,11 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.pad15 {
+    padding: 15px;
+}
 
 /*left panel*/
-.maxw {
+.max-w {
     width: 105px;
 }
