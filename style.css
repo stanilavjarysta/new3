@@ -29,6 +29,9 @@
     position: absolute;
     top: 530px;
     }
+.c-box {
+    width: 60%;
+}
 .left {
     width: 10%;
 }
