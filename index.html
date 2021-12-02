@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
-</head>
+   </head>
 <body>
 <div class="container df wrap">
     <div class="image"></div>
 <div class="box df jc-cen bacC">
     <div class="box2 df br bacS ">
-
         <!--    left bottom-->
         <div class="boxf df fd-col jc-cen ai-cen">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdplP1sfVmwdZz70uEzJpVBFV9dfAwyR1Dw&usqp=CAU" alt="">
@@ -26,15 +26,12 @@
         </div>
 <!--        right to top-->
 
-
-
 <!--       color-->
         <nav class="navbar fixed-top navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
             </div>
         </nav>
-
 <!--        right bottom-->
         <div class="boxf df fd-col jc-cen ai-cen brn">
                 <h4>EMAIL</h4>
@@ -51,22 +48,18 @@
             <a class="navbar-brand" href="#">Go back</a>
         </div>
     </nav>
-
-
     <!--        center-->
         <div class="box3 df jc-cen">
-                <div class="list-group left bacS mar br wrap" id="myList" role="tablist">
+                <div class="list-group left bacS mar br" id="myList" role="tablist">
                     <button class="a-but" id="colorify">Color</button>
                     <a class="a-but list-group-item list-group-item-action active" data-bs-toggle="list" href="#home" role="tab">About</a>
                     <a class="a-but" class="font-s mar list-group-item list-group-item-action" data-bs-toggle="list" href="#profile" role="tab">Resume</a>
                     <a class="a-but" class="font-s mar list-group-item list-group-item-action" data-bs-toggle="list" href="#messages" role="tab">Work</a>
-                    <a class="a-but" class="font-s mar list-group-item list-group-item-action" data-bs-toggle="list" href="#settings" role="tab">Settings</a>
+                    <a class="a-but" class="font-s mar list-group-item list-group-item-action" data-bs-toggle="list" href="#settings" role="tab">Blog</a>
                     <a class="a-but" class="font-s mar list-group-item list-group-item-action" data-bs-toggle="list" href="#contact" role="tab">Contact</a>
-
                 </div>
-
-
             <!--    about-->
+
 <div class="df fd-col">
     <div class="tab-content">
         <div class="tab-pane active" id="home" role="tabpanel">
@@ -84,17 +77,19 @@
         <div>
     </div>
     <div class="tab-pane" id="profile" role="tabpanel">
-
 <!--        About end-->
+
+
+
+
+
         <nav class="navbar fixed-bottom navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Go back</a>
             </div>
         </nav>
 
-
-
-<!--            1colum-->
+<!--           1colum-->
         <div class="df">
 <div>
             <div class="card bacS mar br pad15">
@@ -148,7 +143,6 @@
 <!--work-->
     <div class="tab-pane" id="messages" role="tabpanel">
                         <div>
-
                             <div class="df">
                             <div class="card bacS mar br" style="width: 18rem;">
                                 <img class="mar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFcAgfiF4wsowNxBzNU-5ql0Bhe6GzBfpoQ&usqp=CAU" class="card-img-top" alt="...">
@@ -209,21 +203,36 @@
 <!--    blog-->
                     <div class="tab-pane" id="settings" role="tabpanel">
                         <div>
-
+                            <!--modal/-->
+                                <div id="myNav" class="overlay">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <div class="overlay-content">
+                                        <a href="#">INFORMACION</a>
+                                        <h2>Fullscreen Overlay Nav Example</h2>
+                                        <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+                                        <p>In this example, the navigation menu will slide in, from left to right:</p>
+                                        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                                    </div>
+                                </div>
+                            <!-- Full screen modal -->
                             <div class="df">
                                 <div class="card bacS mar br" style="width: 18rem;">
                                     <img class="mar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTs6UfCLa_A0EUl6qcYGjYNFqPf7tkKkAlg&usqp=CAU" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h3 class="mar tx-col card-title">T-shirt design is the part of design</h3>
                                         <p class="mar tx-col card-text">Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                        <!-- Full screen modal click -->
+                                        <span class="a-but" onclick="openNav()">INFORMACION</span>
                                     </div>
                                 </div>
-                                <div class="card bacS mar br" style="width: 18rem;">
+                                    <div class="card bacS mar br" style="width: 18rem;">
                                     <img class="mar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTs6UfCLa_A0EUl6qcYGjYNFqPf7tkKkAlg&usqp=CAU" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h3 class="mar tx-col card-title">T-shirt design is the part of design</h3>
                                         <p class="mar tx-col card-text">Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                                    </div>
+                                        </div>
+                                        <!-- Full screen modal click-->
+                                        <span class="a-but" onclick="openNav()">INFORMACION</span>
                                 </div>
                                 <div class="card bacS mar br" style="width: 18rem;">
                                     <img class="mar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTs6UfCLa_A0EUl6qcYGjYNFqPf7tkKkAlg&usqp=CAU" class="card-img-top" alt="...">
@@ -266,8 +275,6 @@
             <a class="navbar-brand" href="#">Go back</a>
         </div>
     </nav>
-
-
     <!--contact-->
     <div class="tab-pane" id="contact" role="tabpanel">
 <div class="df">
