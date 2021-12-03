@@ -14,12 +14,11 @@
      }
 .box2 {
     width: 98%;
-    height: 300px;
+    height: 18rem;
     position: absolute;
     top: 230px;
-    left: auto;
     }
-.boxf {
+.box-f {
     width: 50%;
     height: 95%;
     border-right: 3px solid black;
@@ -28,13 +27,14 @@
     width: 100%;
     background-color: black;
     position: absolute;
-    top: 530px;
+    top: 32rem;
     }
 .c-box {
     width: 60%;
 }
 .left {
-    width: 10%;
+    width: 15%;
+    height: 30rem;
 }
 .right {
     width: 80%;
@@ -51,7 +51,7 @@ h4 {
     color: white;
 }
 .a-but {
-   font-size: 28px;
+   font-size: 2rem;
     background-color: black;
     border-radius: 5px;
     color: white;
@@ -74,11 +74,17 @@ img {
     width: 40%;
     border-radius: 10px;
 }
+.wid {
+    width: 93%;
+}
+.wid1 {
+    width: 100%;
+}
 .tx-col {
     color: white;
 }
 .card {
-width: 80%;
+width: 27rem;
 
 }
 
@@ -100,11 +106,17 @@ width: 80%;
 .fd-col {
     flex-direction: column;
 }
+.fd-r {
+    flex-direction: row;
+}
 .ta-cen {
     text-align: center;
 }
 .jc-cen {
     justify-content: center;
+}
+.jc-sev{
+    justify-content: space-evenly;
 }
 .df {
     display: flex;
@@ -120,7 +132,7 @@ width: 80%;
     margin: 15px;
 }
 .mb {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 .mr20 {
    margin-right: 20px;
@@ -188,3 +200,6 @@ body {
         right: 35px;
     }
 }
+
+/*responsive*/
+
